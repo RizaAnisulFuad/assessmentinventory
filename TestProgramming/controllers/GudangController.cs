@@ -16,7 +16,7 @@ public class GudangController : ControllerBase
         return await _context.Gudang.ToListAsync();
     }
 
-    // GET: api/Gudang/5
+    // GET: api/Gudang/
     [HttpGet("{id}")]
     public async Task<ActionResult<Gudang>> GetGudang(int id)
     {
